@@ -1,7 +1,6 @@
 import Head from 'next/head'
 import Link from 'next/link'
-import {Heading} from "@chakra-ui/react"
-import profilePic from '../components/profilepic'
+import {Heading,Text,Code} from "@chakra-ui/react"
 import YourComponent from '../components/profilepic'
 export default function Home() {
   return (
@@ -17,7 +16,7 @@ export default function Home() {
         </Heading>
 <YourComponent />
         <p className="description">
-          Get started with editing <code>pages/index.js</code>
+          Get started with editing <Code >pages/index.js</Code>
         </p>
 
         <div className="grid">
